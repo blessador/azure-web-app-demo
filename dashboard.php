@@ -56,7 +56,7 @@ if (!isset($_SESSION['username'])) {
     <div class="dashboard-container">
         <h2>Welcome to the Dashboard</h2>
         <p>Hello, <?php echo htmlspecialchars($_SESSION['username']); ?>!</p>
-        <p><a href="logout.php">Logout</a></p>
+        <p><a href="logout.php">Logout </a></p>
     </div>
 </body>
 </html>
