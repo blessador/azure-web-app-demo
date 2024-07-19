@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     exit();
 } else {
     // If the form is not submitted, redirect back to the login page
-    header('Location: login.html');
+    header('Location: index.html');
     exit();
 }
 
